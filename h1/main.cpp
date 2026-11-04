@@ -67,7 +67,7 @@ float retDiv(int a, int b)
 {
     if (b == 0)
     {
-        throw runtime_error("The divisor cannot be zero.");;
+        throw runtime_error("The divisor cannot be zero.");
     }
 
     return (float)a/b;
